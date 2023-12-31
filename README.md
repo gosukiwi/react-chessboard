@@ -2,7 +2,7 @@
 
 A minimal chessboard so easily embed chess boards into any React app.
 
-```typescript
+```tsx
 import { Board } from "./components/Board";
 
 function App() {
