@@ -102,6 +102,7 @@ export const parseSquareName = (name: string): SquareName => {
 
 export type Position = string[][];
 export type Player = "WHITE" | "BLACK";
+
 export interface CastlingRights {
   Black: {
     Queenside: boolean;
