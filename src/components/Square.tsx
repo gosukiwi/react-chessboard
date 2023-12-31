@@ -1,6 +1,6 @@
 import classes from "classnames";
 import type { Rank, File, Piece } from "../common";
-import { Piece } from "./pieces/Piece";
+import { Piece } from "./Piece";
 import styles from "./Square.module.css";
 
 const getSquareColor = (rank: Rank, file: File) => {
