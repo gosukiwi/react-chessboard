@@ -1,0 +1,7 @@
+.Board {
+  border: 1px solid var(--board-border);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
