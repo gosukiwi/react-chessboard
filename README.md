@@ -1,9 +1,9 @@
 # React Chessboard
 
-A minimal chessboard so easily embed chess boards into any React app.
+A minimal chessboard to easily embed chess boards into any React app.
 
 ```tsx
-import { Board } from "./components/Board";
+import { Board } from "react-chessboard/Board";
 
 function App() {
   return (
