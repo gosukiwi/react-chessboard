@@ -14,15 +14,15 @@ const getSquareColor = (rank: Rank, file: File) => {
 interface SquareProps {
   rank: Rank;
   file: File;
-  value: Piece;
+  piece: Piece;
 }
 
-export function Square({ rank, file, value }: SquareProps) {
+export function Square({ rank, file, piece }: SquareProps) {
   const color = getSquareColor(rank, file);
 
   return (
     <div className={classes(styles.Square, styles[color])}>
-      <Piece piece={value} />
+      <Piece piece={piece} />
     </div>
   );
 }

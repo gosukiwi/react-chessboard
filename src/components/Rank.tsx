@@ -10,11 +10,11 @@ interface RankProps {
 export function Rank({ rank, files }: RankProps) {
   return (
     <div className={styles.Rank}>
-      {files.map((col, fileIndex) => {
+      {files.map((piece, fileIndex) => {
         const file = fileIndex + 1;
         const key = `${rank}${file}`;
 
-        return <Square key={key} rank={rank} file={file} value={col} />;
+        return <Square key={key} rank={rank} file={file} piece={piece} />;
       })}
     </div>
   );
