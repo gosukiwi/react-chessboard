@@ -7,7 +7,7 @@ interface BoardProps {
 }
 
 export function Board({ FEN }: BoardProps) {
-  const position = parseFEN(FEN);
+  const { position } = parseFEN(FEN);
 
   return (
     <div className={styles.Board}>
