@@ -1,5 +1,5 @@
-import classes from "classnames";
 import type { Rank, File, Piece } from "../common";
+import classes from "classnames";
 import { Piece } from "./Piece";
 import styles from "./Square.module.css";
 

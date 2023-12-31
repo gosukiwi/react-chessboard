@@ -4,7 +4,7 @@ import styles from "./App.module.css";
 function App() {
   return (
     <div className={styles.App}>
-      <Board />
+      <Board FEN="rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR" />
     </div>
   );
 }
