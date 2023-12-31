@@ -1,3 +1,5 @@
+type Position = string[][];
+
 const EMPTY_POSITION: Position = [
   ["", "", "", "", "", "", "", ""], // 8th rank
   ["", "", "", "", "", "", "", ""], // 5th rank

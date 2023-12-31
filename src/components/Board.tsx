@@ -2,8 +2,6 @@ import { Rank } from "./Rank";
 import { parseFEN } from "../lib/fen";
 import styles from "./Board.module.css";
 
-type Position = string[][];
-
 interface BoardProps {
   FEN?: string;
 }
