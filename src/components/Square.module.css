@@ -5,7 +5,8 @@
   align-items: flex-end;
   justify-content: center;
 
-  > img {
+  > img,
+  > svg {
     padding-bottom: 10%;
   }
 }

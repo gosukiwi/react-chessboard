@@ -1,4 +1,16 @@
 import type { Piece } from "../../common";
+import BlackPawn from "../../assets/pieces/bp.svg?react";
+import BlackKnight from "../../assets/pieces/bn.svg?react";
+import BlackBishop from "../../assets/pieces/bb.svg?react";
+import BlackRook from "../../assets/pieces/br.svg?react";
+import BlackQueen from "../../assets/pieces/bq.svg?react";
+import BlackKing from "../../assets/pieces/bk.svg?react";
+import WhitePawn from "../../assets/pieces/wp.svg?react";
+import WhiteKnight from "../../assets/pieces/wn.svg?react";
+import WhiteBishop from "../../assets/pieces/wb.svg?react";
+import WhiteRook from "../../assets/pieces/wr.svg?react";
+import WhiteQueen from "../../assets/pieces/wq.svg?react";
+import WhiteKing from "../../assets/pieces/wk.svg?react";
 
 interface PieceComponentProps {
   piece: Piece;
@@ -7,29 +19,29 @@ interface PieceComponentProps {
 export function Piece({ piece }: PieceComponentProps) {
   switch (piece) {
     case "p":
-      return <img width="55%" src="/pieces/bp.svg" />;
+      return <BlackPawn width="55%" />;
     case "n":
-      return <img width="70%" src="/pieces/bn.svg" />;
+      return <BlackKnight width="70%" />;
     case "b":
-      return <img width="80%" src="/pieces/bb.svg" />;
+      return <BlackBishop width="80%" />;
     case "r":
-      return <img width="70%" src="/pieces/br.svg" />;
+      return <BlackRook width="70%" />;
     case "q":
-      return <img width="85%" src="/pieces/bq.svg" />;
+      return <BlackQueen width="85%" />;
     case "k":
-      return <img width="80%" src="/pieces/bk.svg" />;
+      return <BlackKing width="80%" />;
     case "P":
-      return <img width="55%" src="/pieces/wp.svg" />;
+      return <WhitePawn width="55%" />;
     case "N":
-      return <img width="70%" src="/pieces/wn.svg" />;
+      return <WhiteKnight width="70%" />;
     case "B":
-      return <img width="80%" src="/pieces/wb.svg" />;
+      return <WhiteBishop width="80%" />;
     case "R":
-      return <img width="70%" src="/pieces/wr.svg" />;
+      return <WhiteRook width="70%" />;
     case "Q":
-      return <img width="85%" src="/pieces/wq.svg" />;
+      return <WhiteQueen width="85%" />;
     case "K":
-      return <img width="80%" src="/pieces/wk.svg" />;
+      return <WhiteKing width="80%" />;
     default:
       return null;
   }
